@@ -246,6 +246,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2-x64-mingw-ucrt)
     wdm (0.1.1)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -254,10 +255,12 @@ DEPENDENCIES
   github-pages (= 227)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
+  jekyll-remote-theme
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.5
